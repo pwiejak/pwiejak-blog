@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Development allrounder blog`,
+    title: `Programming and all things around`,
     author: {
       name: `Paweł Wiejak`,
       summary: `.NET developer, sports enthusiast, fantasy fan.`,
@@ -8,7 +8,7 @@ module.exports = {
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `opalpw1`,
     },
   },
   plugins: [
