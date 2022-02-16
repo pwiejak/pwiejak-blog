@@ -1,0 +1,20 @@
+.details {
+    padding: 20px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+}
+
+.details.tweaked summary {
+    font-weight: bold;
+}
+
+.details.tweaked ul {
+    background: lightcyan;
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.details.tweaked ul li {
+    list-style-type: none;
+}
