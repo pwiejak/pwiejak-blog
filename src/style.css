@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-4xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -60,6 +60,13 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  /* mine  */
+  --background-color-main: #1A1B25; 
+  --color-heading-main: #D7D8E2;
+  --color-heading-sub: #ABACB5;
+  --color-primary-dark: #ABACB5;
+  --color-background-synopsis-dark: #434347;
+  --color-text-dark: #D8DAF0;
 }
 
 /* HTML elements */
@@ -80,7 +87,8 @@ html {
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
-  color: var(--color-text);
+  color: var(--color-text-dark);
+  background-color: var(--background-color-main);
 }
 
 footer {
@@ -114,13 +122,13 @@ h4,
 h5,
 h6 {
   font-weight: var(--fontWeight-bold);
-  color: var(--color-heading);
+  color: var(--color-heading-sub);
 }
 
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
+  color: var(--color-heading-main);
 }
 
 h2 {
@@ -180,11 +188,11 @@ ol {
 ul li,
 ol li {
   padding-left: var(--spacing-0);
-  margin-bottom: calc(var(--spacing-8) / 2);
+  margin-bottom: calc(var(--spacing-12) / 2);
 }
 
 li > p {
-  margin-bottom: calc(var(--spacing-8) / 2);
+  margin-bottom: calc(var(--spacing-12) / 2);
 }
 
 li *:last-child {
@@ -230,7 +238,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 a:hover,
@@ -261,7 +269,7 @@ a:focus {
 
 .post-list-item {
   margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
+  /* margin-top: var(--spacing-8); */
 }
 
 .post-list-item p {
@@ -270,7 +278,7 @@ a:focus {
 
 .post-list-item h2 {
   font-size: var(--fontSize-4);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
 }
@@ -330,4 +338,17 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+/* posts list */
+.synopsis {
+  padding: 20px;
+  background-color: var(--color-background-synopsis-dark);
+  border-radius: 10px;
+}
+
+code,
+.language-text,
+.language-html {
+  background-color: #f2f2f2;
 }
