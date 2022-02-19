@@ -1,7 +1,7 @@
 ---
 title: Today I Learned - html <details>
 date: "2022-02-15T20:12:03.284Z"
-description: "TIL about html details tag"
+description: "Today I Learned - I want to start a series about small findings and remindings that are useful and quick and easy to share. First post will by about 'details' tag in html"
 ---
 
 In "Today I learned" series I would like to share some small stuff I just learned when going through my internet feeds.
@@ -68,5 +68,6 @@ It can be open by default with just adding the ```open``` attribute
             <li>It's easy</li>
             <li>It's fun</li>
         </ul>
+        <p>Dark mode rocks! I will have to implement dark theme eventually.</p>
     </details>
 </div>

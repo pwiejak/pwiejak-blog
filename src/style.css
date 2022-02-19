@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-4xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -60,6 +60,9 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  /* mine */
+  --color-background-synopsis: #F6F6FF;
+  --color-background-code: #F6F6FF;
 }
 
 /* HTML elements */
@@ -331,3 +334,16 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+/* posts list */
+.synopsis {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+code,
+.language-text,
+.language-html {
+  background-color: var(--color-background-code) !important;
+} 

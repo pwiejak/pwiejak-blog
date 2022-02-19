@@ -5,16 +5,26 @@
     border-width: thin;
 }
 
+.details.tweaked {
+    background-color: #1A1B25;
+    color: #D8DAF0;
+}
+
 .details.tweaked summary {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .details.tweaked ul {
-    background: lightcyan;
+    background: #434347;
     border: 1px solid lightgray;
     padding: 1rem;
 }
 
 .details.tweaked ul li {
     list-style-type: none;
+}
+
+.details.tweaked h4 {
+    color: #D8DAF0;
 }
